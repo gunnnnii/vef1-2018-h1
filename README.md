@@ -10,7 +10,7 @@
 - [x] Staff síða
 - [ ] Cart síða
 
-Er verið að vinna í: 
+Verkefni sem menn eru að vinna í:
 * Kristinn:
     * Staff síða
 * Róbert:
