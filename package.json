@@ -1,0 +1,33 @@
+{
+  "name": "vef1-2018-h1",
+  "version": "1.0.0",
+  "description": "hopverkefnis pakkinn",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "node-sass --source-map-embed styles.scss styles.css -w",
+    "sass-watch": "node-sass --source-map-embed --watch *.scss --recursive styles.css",
+    "dev": "npm-run-all --parallel sass browser-sync",
+    "lint-css": "stylelint styles.css --syntax css",
+    "lint-scss": "stylelint styles.scss --syntax scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunnnnii/vef1-2018-h1.git"
+  },
+  "author": "Kristinn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunnnnii/vef1-2018-h1/issues"
+  },
+  "homepage": "https://github.com/gunnnnii/vef1-2018-h1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "npm-run-all": "^4.1.3",
+    "stylelint": "^9.6.0",
+    "stylelint-config-primer": "^2.2.10"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  }
+}
