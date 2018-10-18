@@ -1,6 +1,17 @@
 
 # Hópverkefni 1
 
+## Checklist
+---
+- [x] Setja upp html 
+- [x] Setja upp sass, stylelint og browsersync
+- [ ] Skrifa README.md
+- [ ] Forsíða
+- [ ] Products Síða
+- [x] Staff síða
+- [ ] Cart síða
+
+
 Verkefnið felst í því að smíða vef eftir forskrift.
 
 Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ásamt `1500px` án grindar og yfirliti yfir virkni vefs í `utlit/video.mp4`.
