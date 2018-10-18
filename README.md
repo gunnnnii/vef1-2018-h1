@@ -5,16 +5,6 @@ Verkefnið felst í því að smíða vef eftir forskrift.
 
 Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ásamt `1500px` án grindar og yfirliti yfir virkni vefs í `utlit/video.mp4`.
 
-## Checklist
-- [x] Setja upp html 
-- [x] Setja upp sass, stylelint og browsersync
-- [ ] Skrifa README.md
-- [ ] Forsíða
-- [ ] Products Síða
-- [ ] Staff síða
-- [ ] Cart síða
-
-
 ## Síður
 
 - [ ] Gögn fyrir síður eru í viðeigandi textaskrám (t.d. forsida.txt) undir `efni/`. Myndir fyrir síður eru gefnar undir `img/`. Afrita þarf öll gögn á milli síðna, ekki er krafa um að setja upp sameiginlegan haus/fót á síðum með einhverju kerfi eða forritun.
@@ -76,13 +66,13 @@ Setja þarf upp `package.json` og sækja viðeigandi pakka til að tæki og tól
 
 ## Mat
 
-* 10% - `README` eftir forskrift, tæki og tól uppsett
-* 20% – Snyrtilegt, gilt (skv. stylelint) CSS/Sass, gilt og aðgengilegt HTML
-* 30% – Almennt útlit
-* 10% – Forsíða
-* 10% – Vörulista síða
-* 10% – Um síða
-* 10% – Kaupa síða
+- [ ] * 10% - `README` eftir forskrift, tæki og tól uppsett
+- [ ] * 20% – Snyrtilegt, gilt (skv. stylelint) CSS/Sass, gilt og aðgengilegt HTML
+- [ ] * 30% – Almennt útlit
+- [ ] * 10% – Forsíða
+- [ ] * 10% – Vörulista síða
+- [ ] * 10% – Um síða
+- [ ] * 10% – Kaupa síða
 
 ## Sett fyrir
 
