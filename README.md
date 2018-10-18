@@ -11,12 +11,12 @@
 - [ ] Cart síða
 
 Er verið að vinna í: 
-> Kristinn:
-    >> Staff síða
-> Róbert:
-    >> NA
-> Gunnar
-    >> NA
+* Kristinn:
+    * Staff síða
+* Róbert:
+    * NA
+* Gunnar
+    * NA
 
 
 Verkefnið felst í því að smíða vef eftir forskrift.
