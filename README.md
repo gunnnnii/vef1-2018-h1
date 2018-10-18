@@ -2,7 +2,6 @@
 # Hópverkefni 1
 
 ## Checklist
----
 - [x] Setja upp html 
 - [x] Setja upp sass, stylelint og browsersync
 - [ ] Skrifa README.md
