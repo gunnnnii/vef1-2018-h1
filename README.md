@@ -1,6 +1,10 @@
 
 # Hópverkefni 1
 
+Verkefnið felst í því að smíða vef eftir forskrift.
+
+Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ásamt `1500px` án grindar og yfirliti yfir virkni vefs í `utlit/video.mp4`.
+
 ## Checklist
 - [x] Setja upp html 
 - [x] Setja upp sass, stylelint og browsersync
@@ -18,10 +22,6 @@ Verkefni sem menn eru að vinna í:
 * Gunnar
     * NA
 
-
-Verkefnið felst í því að smíða vef eftir forskrift.
-
-Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ásamt `1500px` án grindar og yfirliti yfir virkni vefs í `utlit/video.mp4`.
 
 ## Síður
 
