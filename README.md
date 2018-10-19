@@ -9,15 +9,18 @@ Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ása
 
 - [x] Gögn fyrir síður eru í viðeigandi textaskrám (t.d. forsida.txt) undir `efni/`. Myndir fyrir síður eru gefnar undir `img/`. Afrita þarf öll gögn á milli síðna, ekki er krafa um að setja upp sameiginlegan haus/fót á síðum með einhverju kerfi eða forritun.
 
-- [ ] Efni síðu skal ekki vera breiðara en `1200px`. Litir í haus og fæti skulu fylla út í allt lárétt pláss.
+- [x] Efni síðu skal ekki vera breiðara en `1200px`. Litir í haus og fæti skulu fylla út í allt lárétt pláss.
 
-- [ ] Síður hafa allar sama haus og sama fót. Vöruflokkar í fæti skulu allir vísa á `pages/products.html`.
+- [x] Síður hafa allar sama haus og sama fót. Vöruflokkar í fæti skulu allir vísa á `pages/products.html`.
 
-- [ ] Grunn leturstærð er 16px og fylgja allar aðrar leturgerðir eftirfarandi skala: `12 14 16 18 21 24 36 48 60`.
+  - [ ] Setja upp css fyrir fót með grind
+  - [ ] Setja upp css haus
+
+- [x] Grunn leturstærð er 16px og fylgja allar aðrar leturgerðir eftirfarandi skala: `12 14 16 18 21 24 36 48 60`.
 
 - [x] Litapalletta fyrir vef er `#000000`, `#ffffff`, `#afb281`, `#cee8ff`, `#fcffd2` og `#cc9694`.
 
-- [ ] Letur fyrir meginmál er Open Sans eða helvetica, arial eða sans-serif letur.
+- [x] Letur fyrir meginmál er Open Sans eða helvetica, arial eða sans-serif letur.
 Letur fyrir fyrirsagnir er Oswald, Verdana eða serif letur.
 
 - [ ] Flest allt er sett upp í 12 dálka grind með `20px` gutter.
@@ -26,7 +29,7 @@ Letur fyrir fyrirsagnir er Oswald, Verdana eða serif letur.
 
 - [ ] Allar hreyfingar gerast á `300ms` með `ease-in-out` hröðunarfalli.
 
-- [ ] Ekki þarf að útfæra neina virkni fyrir takka eða form.
+- Ekki þarf að útfæra neina virkni fyrir takka eða form.
 
 ## Hópavinna
 
