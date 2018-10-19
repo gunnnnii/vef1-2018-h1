@@ -1,0 +1,19 @@
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid__row {
+  display: flex;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.grid__col {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid__col-50 {
+  width: 50%;
+}
