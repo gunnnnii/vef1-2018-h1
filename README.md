@@ -13,7 +13,7 @@ Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ása
 
 - [x] Síður hafa allar sama haus og sama fót. Vöruflokkar í fæti skulu allir vísa á `pages/products.html`.
 
-  - [ ] Setja upp css fyrir fót með grind
+  - [x] Setja upp css fyrir fót með grind
   - [ ] Setja upp css haus
 
 - [x] Grunn leturstærð er 16px og fylgja allar aðrar leturgerðir eftirfarandi skala: `12 14 16 18 21 24 36 48 60`.

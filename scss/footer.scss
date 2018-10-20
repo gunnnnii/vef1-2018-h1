@@ -1,0 +1,27 @@
+.footer_list {
+  padding: $gutter 0;
+  list-style-type: none;
+}
+
+.footer {
+  background-color: $red;
+}
+
+.footer__copyright {
+  padding-bottom: $gutter*2;
+  text-align: center;
+}
+
+.footer__li {
+  padding: $gutter/4 0;
+}
+
+.footer__li__catagory {
+  padding-bottom: $gutter;
+}
+
+.footer__link {
+  font-weight: 600;
+  color: $white;
+  text-decoration: none;
+}
