@@ -11,16 +11,25 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div>
-        <h1>Vöruhúsið</h1>
-        <nav>
-          <div>
-            <a href="index.html">FORSÍÐA</a>
-            <a href="pages/products.html">VÖRUR</a>
-            <a href="pages/staff.html">STARFSFÓLK</a>
+    <header class="header">
+      <div class="grid">
+        <div class="grid__row">
+          <h1 class="header__h1">Vöruhúsið</h1>
+        </div>
+        <nav class="grid__row navbar">
+          <div class="grid__col grid__col-4 invisible_item">
+            <a href="pages/cart.html">Karfa (3)</a>
           </div>
-        <div><a href="pages/cart.html">Karfa (3)</a></div>
+          <div class="grid__col grid__col-4">
+            <a class="nav__link" href="index.html">FORSÍÐA</a>
+            <a class="nav__link" href="pages/products.html">VÖRUR</a>
+            <a class="nav__link" href="pages/staff.html">STARFSFÓLK</a>
+          </div>
+          <div class="grid__col grid__col-4 ">
+            <div class="cart_link">
+              <a class="nav__link" href="pages/cart.html"><img class="cart_icon" scr="img/cart.svg">Karfa (3)</a>
+            </div>
+          </div>
         </nav>
       </div>
     </header>

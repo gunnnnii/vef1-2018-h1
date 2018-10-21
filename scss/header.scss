@@ -1,0 +1,38 @@
+.header {
+  background-color: $sand;
+}
+
+@media (max-width: 1200px) {
+  .header > * {
+    @include squeezepad;
+  }
+}
+
+.header__h1 {
+  margin: -$gutter 0;
+  font-size: 4em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 500px) {
+    justify-content: center;
+  }
+}
+
+.invisible_item {
+  overflow: hidden;
+  flex-shrink: 1;
+  visibility: hidden;
+  @media (max-width: 500px) {
+    width: 0;
+    height: 0;
+  }
+}
+
+.nav__link {
+  font-weight: bold;
+  color: $black;
+  text-decoration: none;
+}
