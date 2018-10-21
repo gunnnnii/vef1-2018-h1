@@ -20,6 +20,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+package.json
+package-lock.json
+
 .env
 
 # sleppum styles.css þar sem það verður búið til út frá styles.scss
