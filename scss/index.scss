@@ -2,9 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  @media (max-width: 1200px) {
-    padding: 0 1.5*$gutter;
-  }
 }
 
 .index_item__title {
