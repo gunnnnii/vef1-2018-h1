@@ -5,6 +5,18 @@ Verkefnið felst í því að smíða vef eftir forskrift.
 
 Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ásamt `1500px` án grindar og yfirliti yfir virkni vefs í `utlit/video.mp4`.
 
+# TODO
+## Index
+- [ ] Media query til að skala main í 800px og 500px
+## Products
+- [ ] Allt css
+## Staff
+- [ ] Uppsetning á texta og myndum
+- [ ] Animation
+## Cart
+- [ ] Vörur í körfu css
+- [ ] Kaupa form css
+
 ## Síður
 
 - [x] Gögn fyrir síður eru í viðeigandi textaskrám (t.d. forsida.txt) undir `efni/`. Myndir fyrir síður eru gefnar undir `img/`. Afrita þarf öll gögn á milli síðna, ekki er krafa um að setja upp sameiginlegan haus/fót á síðum með einhverju kerfi eða forritun.
@@ -14,7 +26,7 @@ Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ása
 - [x] Síður hafa allar sama haus og sama fót. Vöruflokkar í fæti skulu allir vísa á `pages/products.html`.
 
   - [x] Setja upp css fyrir fót með grind
-  - [ ] Setja upp css haus
+  - [x] Setja upp css haus
 
 - [x] Grunn leturstærð er 16px og fylgja allar aðrar leturgerðir eftirfarandi skala: `12 14 16 18 21 24 36 48 60`.
 
