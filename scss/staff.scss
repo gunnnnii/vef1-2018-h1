@@ -1,0 +1,34 @@
+
+.grid__col:hover .staff__img {
+    transform: rotateY(180deg);
+}
+.face {
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden; //ekki syna það sem er á bakvið
+}
+.face.back {
+    display: block;
+    transform:rotateY(180deg);    
+}
+.staff__img {
+    width:100%;
+    max-width: $maxwidth/2;
+    transform-style: preserve-3d;
+    transition: transform 0.2s linear;
+    
+}
+.staff__text {       
+    position:relative;
+    bottom:50%;
+    left:25%;
+}
+
+/*
+.staff__content {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+
+*/
