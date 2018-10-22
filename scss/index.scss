@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+<<<<<<< HEAD
   @media (max-width: 1200px) {
     padding: 0 1.5*$gutter;
   }
@@ -18,6 +19,8 @@
     padding-bottom: 2*$gutter;
     margin-top: auto;
   }
+=======
+>>>>>>> 8f789874855df666e8d169dee2588dd3a8b3f4a9
 }
 
 .index_item__title {
