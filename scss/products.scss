@@ -1,0 +1,30 @@
+.products_main {
+  padding-top: $gutter;
+  padding-bottom: 2*$gutter;
+}
+
+.products_item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.products_img {
+  width: 100%;
+  height: 100%;
+}
+
+.products_title {
+  padding-bottom: $gutter/2;
+  font-size: 1.5em;
+}
+
+.product_description {
+  margin-bottom: $gutter;
+  flex-grow: 1;
+}
+
+.product_price {
+  padding-bottom: $gutter/2;
+}
