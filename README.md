@@ -33,11 +33,12 @@ styles.css er fyrsta scss skráin sem að er notuð og hún importar allar aðra
 
 index.html er fyrsta html skráin sem að er notuð en allar möppur eru tengdar hvor annari. Hinar html skrárnar eru geymdar í pages möpunni
 
-## Hópurinn/Höfundar
+## Höfundar
 
----
 Gunnar Ingi Stefánsson
+
 Róbert Guðmundsson
+
 Kristinn Godfrey Guðnason
 
 # TODO
