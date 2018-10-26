@@ -1,9 +1,44 @@
 
+
+
 # Hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
 Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ásamt `1500px` án grindar og yfirliti yfir virkni vefs í `utlit/video.mp4`.
+
+## Hvernig skal keyra verkefnið
+
+Hægt er að ná í verkefnið frá: https://github.com/vefforritun/vef1-2018-h1.git
+
+Til þess að keyra verkefnið fer maður inn í möppuna sem inniheldur verkefnið og setur verkefnið upp með keyrir npm skipunina: `npm run dev`
+
+```bash
+> cd /slóð/á/verkefni
+> npm install
+```
+
+Svo þarf að keyra eftirfarandi npm skipun til keyra verkefnið með localhost
+
+```bash
+> npm run dev
+```
+## Uppsetning verkefnis
+
+package.json skráin geymir scriptur og stillingaratriði sem við höfum sett upp.
+
+Þegar verkefnið er keyrt með `npm run dev` er ræstur localhost netþjónn sem keyrir verkefnið með tólum sem gerir okkur kleift að vinna gagnvirkt með skrárnar okkar og leyfir okkur að nota scss skrár og nota stylelint.
+
+styles.css er fyrsta scss skráin sem að er notuð og hún importar allar aðrar scss skrár sem við notum. Hinar html skrárnar eru geymdar í scss möpunni. 
+
+index.html er fyrsta html skráin sem að er notuð en allar möppur eru tengdar hvor annari. Hinar html skrárnar eru geymdar í pages möpunni
+
+## Hópurinn/Höfundar
+
+---
+Gunnar Ingi Stefánsson
+Róbert Guðmundsson
+Kristinn Godfrey Guðnason
 
 # TODO
 ## Index
@@ -13,8 +48,8 @@ Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ása
 - [x] CSS fyrir form
 - [x] Media query til að skala
 ## Staff
-- [ ] Uppsetning á texta og myndum
-- [ ] Animation
+- [x] Uppsetning á texta og myndum
+- [x] Animation
 ## Cart
 - [ ] Vörur í körfu css
 - [ ] Kaupa form css
