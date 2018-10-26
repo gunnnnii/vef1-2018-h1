@@ -2,6 +2,13 @@
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
+## Höfundar
+
+Gunnar Ingi Stefánsson (gis20@hi.is)
+
+Róbert Guðmundsson (rrg5@hi.is)
+
+Kristinn Godfrey Guðnason (kgg16@hi.is)
 
 ## Hvernig skal keyra verkefnið
 
@@ -35,14 +42,6 @@ package.json og package-lock.json skrárnar geyma scriptur, upplýsingar og skil
 
 Þegar verkefnið er keyrt með `npm run dev` er ræstur localhost netþjónn sem keyrir verkefnið með tólum sem gerir okkur kleift að vinna gagnvirkt með skrárnar okkar og leyfir okkur að nota scss skrár og nota stylelint.
 
-## Höfundar
-
-Gunnar Ingi Stefánsson
-
-Róbert Guðmundsson
-
-Kristinn Godfrey Guðnason
-
 ## Myndir
 
 Myndir frá:
@@ -60,4 +59,4 @@ Myndir frá:
   - https://unsplash.com/photos/asBwpysXVB4
   - https://unsplash.com/photos/-s6XYBp1WTc
   - https://unsplash.com/photos/wKOKidNT14w
-  
+
