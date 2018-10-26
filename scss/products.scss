@@ -1,12 +1,15 @@
 .products_main {
   padding-top: $gutter;
   padding-bottom: 2*$gutter;
+  @media (max-width: 1220px) {
+    padding-right: $gutter;
+    padding-left: $gutter;
+  }
 }
 
 .products_item {
   display: flex;
   flex-direction: column;
-  flex: 1;
   justify-content: space-between;
 }
 
@@ -27,4 +30,45 @@
 
 .product_price {
   padding-bottom: $gutter/2;
+}
+
+.form__inputs {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.number_input {
+  min-width: 8em;
+  height: 2.5em;
+  padding-left: $gutter/3;
+  margin-right: $gutter/3;
+  flex-grow: 1;
+  background-color: $white;
+  border: 1px solid $black;
+  border-radius: 3px;
+}
+
+.submit_button {
+  min-width: ($maxwidth/10);
+  margin: 0;
+  flex: 1 0 20%;
+  background-color: transparent;
+  background-image: url("../img/cart.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  background-size: 1.5em;
+}
+
+.cart_button__img {
+  height: 1em;
+}
+
+.submit_button::before {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  content: url("../img/cart.jpg");
+  background-size: 1.5em;
 }
