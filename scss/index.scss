@@ -49,6 +49,12 @@
   text-decoration: none;
   background-color: $red;
   border-radius: 5px;
+  @include transitions(color);
+}
+
+.index_item__button:hover {
+  color: $red;
+  background-color: $black;
 }
 
 .index_img {

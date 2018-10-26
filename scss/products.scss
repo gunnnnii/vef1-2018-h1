@@ -62,11 +62,19 @@
   min-width: ($maxwidth/10);
   margin: 0;
   flex: 1 0 20%;
-  background-color: transparent;
+  cursor: pointer;
+  background-color: $white;
   background-image: url("../img/cart.svg");
   background-repeat: no-repeat;
   background-position: 5px 5px;
   background-size: 1.5em;
+  @include transitions(background-color);
+  @include transitions(border-color);
+}
+
+.submit_button:hover {
+  background-color: $red;
+  border-color: transparent;
 }
 
 .cart_button__img {

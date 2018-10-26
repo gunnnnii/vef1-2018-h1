@@ -25,4 +25,9 @@
   font-weight: 600;
   color: $white;
   text-decoration: none;
+  @include transitions(color);
+}
+
+.footer__link:hover {
+  color: $black;
 }

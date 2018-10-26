@@ -40,6 +40,11 @@
   font-weight: bold;
   color: $black;
   text-decoration: none;
+  @include transitions(color);
+}
+
+.nav__link:hover {
+  color: $white;
 }
 
 .header__cart_link {
@@ -50,6 +55,11 @@
   font-weight: 500;
   color: $black;
   text-decoration: none;
+  @include transitions(color);
+}
+
+.header__cart_link:hover {
+  color: $white;
 }
 
 .header__cart_link::before {
@@ -60,4 +70,8 @@
   content: "";
   background: url("img/cart.svg") no-repeat;
   background-size: 1.5em;
+}
+
+.active_page {
+  text-decoration: underline;
 }
