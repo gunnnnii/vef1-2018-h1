@@ -1,10 +1,7 @@
 .products_main {
   padding-top: $gutter;
   padding-bottom: 2*$gutter;
-  @media (max-width: 1220px) {
-    padding-right: $gutter;
-    padding-left: $gutter;
-  }
+  @include squeezepad;
 }
 
 .products_item {

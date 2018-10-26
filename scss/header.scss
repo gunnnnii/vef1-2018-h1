@@ -1,11 +1,6 @@
 .header {
   background-color: $sand;
-}
-
-@media (max-width: 1200px) {
-  .header > * {
-    @include squeezepad;
-  }
+  @include squeezepad;
 }
 
 .header__h1 {
