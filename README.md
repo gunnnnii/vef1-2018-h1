@@ -1,6 +1,3 @@
-
-
-
 # Hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
@@ -35,7 +32,7 @@ index.html er forsíðan. Hinar html skrárnar eru geymdar í pages möpunni
 
 styles.css er fyrsta scss skráin sem að er notuð og hún importar allar aðrar scss skrár sem við notum. Hinar scss skrárnar eru geymdar í scss möpunni.
 
-package.json og package-lock.jason skrárnar geyma scriptur, upplýsingar og skilyrði fyrir verkefnið.
+package.json og package-lock.json skrárnar geyma scriptur, upplýsingar og skilyrði fyrir verkefnið.
 
 Þegar verkefnið er keyrt með `npm run dev` er ræstur localhost netþjónn sem keyrir verkefnið með tólum sem gerir okkur kleift að vinna gagnvirkt með skrárnar okkar og leyfir okkur að nota scss skrár og nota stylelint.
 

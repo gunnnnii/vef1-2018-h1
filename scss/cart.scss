@@ -1,0 +1,31 @@
+.cart_img {
+  width: 100%;
+}
+
+.cart_forms_container {
+  padding: 0 $gutter/2 0 0;
+}
+
+.cart_incart_buttons {
+  padding: 0;
+  margin-right: $gutter/3;
+}
+
+.cart_form_row {
+  justify-content: flex-start;
+  align-content: stretch;
+  margin: 0;
+}
+
+.cart_form {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cart_pay_form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
