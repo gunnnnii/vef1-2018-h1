@@ -31,9 +31,9 @@ https://notendur.hi.is/~gis20/vefforritun/vef1-2018-h1/
 
 ## Uppsetning verkefnis
 
-index.html er fyrsta html skráin sem að er notuð og er því forsíðan en allar möppur eru tengdar hvor annari. Hinar html skrárnar eru geymdar í pages möpunni
+index.html er forsíðan. Hinar html skrárnar eru geymdar í pages möpunni
 
-styles.css er fyrsta scss skráin sem að er notuð og hún importar allar aðrar scss skrár sem við notum. Hinar html skrárnar eru geymdar í scss möpunni. styles.scss býr til þýdda styles.css öllum stýlum úr scss skránum okkar
+styles.css er fyrsta scss skráin sem að er notuð og hún importar allar aðrar scss skrár sem við notum. Hinar scss skrárnar eru geymdar í scss möpunni.
 
 package.json og package-lock.jason skrárnar geyma scriptur, upplýsingar og skilyrði fyrir verkefnið.
 
