@@ -1,0 +1,49 @@
+
+.form__inputs {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.number_input {
+  min-width: 8em;
+  height: 2.5em;
+  padding-left: $gutter/3;
+  margin-right: $gutter/3;
+  flex-grow: 1;
+  background-color: $white;
+  border: 1px solid $black;
+  border-radius: 3px;
+}
+
+.submit_button {
+  min-width: ($maxwidth/10);
+  margin: 0;
+  flex: 1 0 20%;
+  cursor: pointer;
+  background-color: $white;
+  background-image: url("../img/cart.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  background-size: 1.5em;
+  @include transitions(background-color);
+  @include transitions(border-color);
+}
+
+.submit_button:hover {
+  background-color: $red;
+  border-color: transparent;
+}
+
+.submit_button__img {
+  height: 1em;
+}
+
+.submit_button::before {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  content: url("../img/cart.jpg");
+  background-size: 1.5em;
+}
