@@ -60,6 +60,4 @@ Myndir frá:
   - https://unsplash.com/photos/asBwpysXVB4
   - https://unsplash.com/photos/-s6XYBp1WTc
   - https://unsplash.com/photos/wKOKidNT14w
-
----
-
+  
