@@ -7,10 +7,11 @@ Gefnar eru [fyrirmyndir](utlit/) í `500px`, `800px` og `1500px` með grind ása
 
 # TODO
 ## Index
-- [ ] Media query til að skala main í 800px og 500px
+- [x] Media query til að skala main í 800px og 500px
 ## Products
 - [x] CSS fyrir vörurnar, myndir og texta
 - [ ] CSS fyrir form
+- [ ] Media query til að skala
 ## Staff
 - [ ] Uppsetning á texta og myndum
 - [ ] Animation
