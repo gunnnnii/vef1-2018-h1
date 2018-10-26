@@ -13,6 +13,10 @@
   justify-content: space-between;
 }
 
+.products_img_container {
+  padding-bottom: $gutter;
+}
+
 .products_img {
   width: 100%;
   height: 100%;
@@ -20,7 +24,10 @@
 
 .products_title {
   padding-bottom: $gutter/2;
-  font-size: 1.5em;
+  font-size: 2em;
+  @media (max-width: 500px) {
+    font-size: 2.5em;
+  }
 }
 
 .product_description {
@@ -30,6 +37,10 @@
 
 .product_price {
   padding-bottom: $gutter/2;
+  font-size: 1.5em;
+  @media (max-width: 500px) {
+    font-size: 2em;
+  }
 }
 
 .form__inputs {

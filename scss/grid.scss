@@ -26,6 +26,12 @@
 
 .grid__col-4 {
   width: 33.33%;
+  @media (max-width: 800px) {
+    width: 50%;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 }
 
 .grid__col-3 {
