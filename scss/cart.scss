@@ -33,9 +33,12 @@
 .cart_shipping_form {
   display: flex;
   flex-direction: column;
-  align-content: stretch;
-  padding-right: 20em;
+  align-content: space-between;
+  padding-right: 10em;
+  label {display: flex; max-height: 20px;}
+  
 }
+
 .cart_button {
   background-color: $red;
   border: none; 
